@@ -172,6 +172,7 @@ html, body {
 
 .site-logo img {
     padding-bottom: 2px;
+    width: 90%;
 }
 
 /* Navigation */
@@ -574,4 +575,13 @@ a.icon-up-bg:hover {color: #212121;}
     line-height: 40px;
     color: #fff;
     text-align: center;
+}
+
+.service-text{
+    text-align: justify;
+}
+
+.img-btns{
+    margin-top: -1.5%;
+    margin-left: 1%;
 }

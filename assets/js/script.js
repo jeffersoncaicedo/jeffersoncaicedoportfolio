@@ -50,6 +50,7 @@ $(function() {
             offset = stat_item.offset().top;
             $(window).scroll(function() {
                 if($(window).scrollTop() > (offset - 1000) && !(stat_item.hasClass('counting'))) {
+                    datetime();
                     stat_item.addClass('counting');
                     stat_item.countTo();
                 }
@@ -85,5 +86,17 @@ $(function() {
                 return false;
             }
     });
+
+
+    // Date calculation
+    function datetime(){
+        const experience = document.getElementById("exp");
+        const fechainicio = new Date('2021-02-19T00:00:00.000Z');
+        const today = new Date();
+
+        let workyears = today.getFullYear() - fechainicio.getFullYear();
+
+        experience.setAttribute('data-to', workyears);
+    }
     
 });
