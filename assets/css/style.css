@@ -3,7 +3,9 @@
  * Theme URI: 
  * Author: Milan Savov
  * Author URI/Mail: milan.savov@gmail.com
- * Version: 1.0
+ * Editor: Jefferson Caicedo
+ * Editor URI/Mail: jeffersonA_caicedo@hotmail.com
+ * Version: 2.4
  * */
 
 /* FONT
@@ -171,8 +173,8 @@ html, body {
 }
 
 .site-logo img {
-    padding-bottom: 2px;
-    width: 90%;
+    /* padding-bottom: 2px; */
+    width: 70%;
 }
 
 /* Navigation */
@@ -518,7 +520,7 @@ html, body {
 
 /* Section: Form*/
 .section-form {
-    padding-bottom: 120px;
+    padding-bottom: 30px;
 }
 
 .section-form .btn {
@@ -572,8 +574,8 @@ a.icon-up-bg:hover {color: #212121;}
 
 .copyright {
     margin-bottom: 0;
-    line-height: 40px;
-    color: #fff;
+    line-height: 30px;
+    color: #212121;
     text-align: center;
 }
 
@@ -584,4 +586,8 @@ a.icon-up-bg:hover {color: #212121;}
 .img-btns{
     margin-top: -1.5%;
     margin-left: 1%;
+}
+
+.about-txt{
+    text-align: justify;
 }
